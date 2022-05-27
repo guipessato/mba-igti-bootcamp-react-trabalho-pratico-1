@@ -1,17 +1,14 @@
-# Teste técnico - DOT digital group | Desenvolvedor Front End - Educação
+# Bootcamp IGTI: Desenvolvedor React | Trabalho Prático | Módulo 1 - JavaScript Avançado
 
-> Teste desenvolvido com base no arquivo PSD disponibilado pela DOT digital group.
+> Construção de uma aplicação de catálogo de produtos de maquiagem a ser consumido de uma <a href="https://makeup-api.herokuapp.com/" target="_blank">API</a> utilizando JavaScript puro e HTML.
 
-### Checklist
+### Objetivos
 
-O projeto foi desenvolvido conforme checklist disponibilizado:
+Exercitar os seguintes conceitos trabalhados no Módulo:
 
-- [x] Desenvolver o front-end dos arquivos PSD em anexo
-- [x] O resultado deve ser responsivo e a versão mobile deve condizer com o arquivo PSD mobile
-- [x] O código deve estar semânticamente correto, bem organizado e estruturado.
-- [x] Utilizar automatizador de tarefa (gulp)
-- [x] O conteúdo final deve ser funcional na última e penúltima versão dos principais navegadores.
-- [x] Não é permitido utilizar framework e pré processadores CSS;
+- [ ] Implementação de aplicação com JavaScript puro
+- [ ] Manipulação de Eventos.
+- [ ] Requisições assíncronas.
 
 
 ## 🚀 Instalando

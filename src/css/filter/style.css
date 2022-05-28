@@ -1,0 +1,40 @@
+.filter__container{
+    max-width: 800px;
+    margin: 30px auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.filter__item{
+    flex: 1 1 32%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.filter__label{
+    font-size: 14px;
+    font-weight: 500;
+    margin-right: 5px;
+}
+
+.filter__input,
+.filter__select{
+    border: 1px solid #ccc;
+}
+
+.filter__input:focus,
+.filter__select:focus{
+    border: 1px solid #999;
+}
+
+.filter__select{
+    width: 70%;
+}
+
+.filter__select option{
+    text-transform: capitalize;
+}

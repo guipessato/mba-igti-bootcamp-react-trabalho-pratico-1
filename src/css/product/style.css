@@ -1,0 +1,120 @@
+.product {
+    max-width: 1300px;
+    margin: 20px auto;
+}
+
+.product__information{
+    font-size: 16px;
+    text-align: center;
+    margin: 25px 0 15px;
+}
+
+.product__list {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    padding: 0;
+}
+
+.product__item {
+    width: 280px;
+    padding: 15px;
+
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+
+    transition: 222ms;
+}
+
+.product__item:hover{
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, .16);
+}
+
+.product__item:hover .product__data{
+    opacity: 1;
+    visibility: visible;
+    transform: translate(0,0%);
+    transition: 222ms;
+}
+
+.product__image {
+    width: auto;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.product__name {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: bold;
+    margin: 10px 0;
+
+    max-width: 24ch;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.product__price-brand,
+.product__data {
+    display: flex;
+    flex-direction: column;
+}
+
+.product__brand {
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    background-color: #d1d1d1;
+    width: max-content;
+    padding: 4px 8px;
+    border-radius: 5px;
+    margin: 0 0 15px;
+}
+
+.product__price {
+    width: 100%;
+    display: flex;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.product__data {
+    margin: 15px 0 10px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translate(0,-100%);
+    transition: 222ms;
+}
+
+.product__data-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+
+.product__data-item:last-child {
+    margin-bottom: 0;
+}
+
+.product__data-item p {
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+    text-align: right;
+    background-color: #d1d1d1;
+    padding: 4px;
+    border-radius: 5px;
+    width: 60%;
+}

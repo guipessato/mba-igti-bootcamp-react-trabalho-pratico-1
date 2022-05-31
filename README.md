@@ -6,9 +6,9 @@
 
 Exercitar os seguintes conceitos trabalhados no Módulo:
 
-- [ ] Implementação de aplicação com JavaScript puro
-- [ ] Manipulação de Eventos.
-- [ ] Requisições assíncronas.
+- [x] Implementação de aplicação com JavaScript puro
+- [x] Manipulação de Eventos.
+- [x] Requisições assíncronas.
 
 
 ## 🚀 Instalando

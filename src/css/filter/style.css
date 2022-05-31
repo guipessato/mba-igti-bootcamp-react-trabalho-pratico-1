@@ -1,11 +1,10 @@
 .filter__container{
-    max-width: 800px;
+    max-width: 1000px;
     margin: 30px auto;
 
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
 }
 
 .filter__item{
@@ -33,6 +32,7 @@
 
 .filter__select{
     width: 70%;
+    text-transform: capitalize;
 }
 
 .filter__select option{
